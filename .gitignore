@@ -1,8 +1,7 @@
 /target
 /pkg
+/www/dist
 Cargo.lock
 
 **/.vscode
-
 **/node_modules
-www/dist
