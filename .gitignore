@@ -1,0 +1,8 @@
+/target
+/pkg
+Cargo.lock
+
+**/.vscode
+
+**/node_modules
+www/dist

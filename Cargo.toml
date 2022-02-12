@@ -1,0 +1,22 @@
+[package]
+name = "oxgame"
+version = "0.1.0"
+authors = ["taketakeyyy <taketakeyyy@gmail.com>"]
+edition = "2021"
+description = "oxgame(tic-tac-toe) with wasm-pack"
+license = "MIT/Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+name = "oxgame"
+path = "src/oxgame.rs"
+
+[dependencies]
+rand = "0.8.3"
+wasm-bindgen = { version = "0.2.63", features = ["serde-serialize"] }
+getrandom = { version = "0.2", features = ["js"] }
+serde_json = "1.0"
+serde_derive = "1.0"
+serde = { version = "1.0", features = ["derive"] }
