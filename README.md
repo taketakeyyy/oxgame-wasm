@@ -64,7 +64,7 @@ let grid = oxgame.make_initialized_grid();
 // ]
 ```
 
-## run_ai_strategy()
+## run_ai_strategy
 Returns optimal placement.
 
 ```javascript
